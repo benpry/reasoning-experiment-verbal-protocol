@@ -24,7 +24,7 @@ const renderStimulus = function (stimulus, world) {
 
 const createTrial = function (stimulus, world) {
   const preTrial = {
-    type: jsPsychHtmlButtonResponseAudioRecording,
+    type: jsPsychHtmlButtonResponse,
     stimulus: `<div class="stimulus">${renderWorld(world)}</div>`,
     choices: ["start"],
     prompt: `<p>Study this list of statements, then click  "start" to see an assumption and question.</p>`,
