@@ -1,0 +1,26 @@
+.world-statements {
+  text-align: left;
+}
+
+.world-statements ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#jspsych-target {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
